@@ -1,0 +1,98 @@
+body{
+    background: url(pic/background.png);
+}
+.choices {
+    margin: 25px 25px 10px 25px;
+    display: flex; 
+    font-size: 18px;
+}
+.choiceSIGNUP{ /*sign up*/
+    position: relative;
+}
+.choiceSIGNIN{ /*sign in*/
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+.choiceSIGNIN::after,.choiceSIGNUP::after {
+    content: '';
+    height: 1px;
+    width: 0;
+    background: rgb(147, 118, 113);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: width 0.5s;
+}
+.choiceSIGNIN::after{
+    bottom: 16px;
+}
+.choiceSIGNIN:hover::after,
+.choiceSIGNUP:hover::after {
+    width: 100%;
+}
+.SIGNIN {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 576px) {
+    .btn {
+        --bs-btn-padding-x: 2rem; /* Adjusted padding for small screens */
+        --bs-btn-font-size: .8rem;
+    }
+}
+.forgotpass{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom: 5rem;
+}
+
+/*SIGN UP*/
+.SIGNUP {
+    font-size: 3rem;
+    text-align: center;
+}
+.haveAccount{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.input-field{
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px; 
+    font-size: 14px; 
+    height: auto; 
+}
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+/*Forgot Password*/
+.FORGOTPASS{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

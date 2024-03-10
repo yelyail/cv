@@ -1,0 +1,95 @@
+body{
+    background: no-repeat;
+    background: url(background.png);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.backg{
+    background-color: #2B15114D;
+}
+.weee{
+    border:  10%;
+    background-color: #DCBC7D;
+    padding: 2%;
+    border-radius:10px;
+    color: rgb(189, 70, 70);
+    font-size: bold !important;
+    text-align: center;
+    justify-content: center;
+}
+.weee:hover{
+    font-size: bold !important;
+    color: #ffffff !important;
+    background-color: #f1ddb5;
+}
+.nav-link{
+    font-family: Helvetica;
+    font-size: 20px !important;
+    font-weight: light;
+    color: rgb(0, 0, 0) !important;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.nav-link:hover{
+    font-size: bold !important;
+    color: #ffffff !important;
+    border-radius: 40px !important;
+    background-color: rgba(104, 74, 74, 0.5);
+}
+.logo-img{
+    width: 100px;
+    height: auto;
+}
+.container-fluid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    opacity: 0.8;
+}
+.txtField{
+    width: 40%;
+    height: auto;
+    left: 5%;
+    top: 30%;
+}
+.par{
+    background-color: rgb(110, 110, 110,0.8);
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.play{
+    width: 4vw;
+    max-width: 10px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    top: 84%;
+}
+.ehhh {
+    position: absolute;
+    background-color: #EEEDEB;
+    background-size: cover;
+    top: 100%;
+    width: 100%;
+}
+.second{
+    margin-top:0;
+}
+.about{
+    justify-content: center;
+    text-align: center;
+    font-size: 9rem;
+    font-weight: bold;
+    opacity: 1;
+}
+/* HAHAHAH */
